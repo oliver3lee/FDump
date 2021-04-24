@@ -11,11 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BA799FD6-BF5B-4E3C-B9CC-B0414E040DBA}</ProjectGuid>
+    <ProjectGuid>{47F95134-A8F9-4B14-BA97-C44F3ECB21EA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Fdump</RootNamespace>
-    <ProjectName>Fdump</ProjectName>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <RootNamespace>FDump</RootNamespace>
+    <ProjectName>FDump</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -80,7 +79,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.c" />
+    <ClCompile Include="fdump.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
